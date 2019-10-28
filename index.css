@@ -16,6 +16,21 @@ body {
   color: #161618;
 }
 
+p.x-large {
+  font-size: 5rem;
+  line-height: 1.4;
+}
+
+.heavy {
+  font-family: 'ObjectSans-Heavy', Helvetica, sans-serif;
+  font-weight: 800;
+}
+
+.type-white {
+  background-color: #161618;
+  color: white;
+}
+
 .container-fluid {
   display: grid;
   grid-auto-flow: row;
