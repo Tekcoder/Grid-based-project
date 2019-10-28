@@ -17,15 +17,30 @@ body {
 }
 
 p.x-large {
-  font-size: 6rem;
+  font-size: 5.4rem;
   line-height: 1.4;
   margin: auto 0;
   padding: 0 3rem 0 3rem;
 }
 
+p > a {
+  text-decoration: none;
+  color: white;
+}
+
+.home {
+  margin-left: 6rem;
+}
+
 .heavy {
   font-family: 'ObjectSans-Heavy', Helvetica, sans-serif;
   font-weight: 800;
+  font-size: 2.5rem;
+}
+
+p.label {
+  font-size: 1.5rem;
+  line-height: 1.5;
 }
 
 .type-white {
@@ -35,7 +50,25 @@ p.x-large {
 .margin {
   margin: 5rem 0;
   font-weight: 400;
-  font-size: 2rem;
+  font-size: 1.6rem;
+}
+
+.margin1 {
+  margin-top: 15rem;
+  margin-bottom: 5rem;
+}
+
+.margin2 {
+  margin-bottom: 15rem;
+}
+
+.margin3 {
+  padding: 0 6.5rem;
+  margin-bottom: 8rem;
+}
+
+.pad1 {
+  margin-left: 2rem;
 }
 
 .container-fluid {
@@ -51,7 +84,6 @@ p.x-large {
   grid-template-columns: repeat(12, 1fr);
   grid-gap: 15px;
   width: 100%;
-  border: 1px solid red;
 }
 
 .justify-row-start {
@@ -201,6 +233,25 @@ p.x-large {
 }
 
 @media only screen and (max-width: 720px) {
+  .home {
+    margin-left: 3rem;
+  }
+
+  p.x-large {
+    font-size: 2rem;
+    line-height: 1.2;
+  }
+
+  p.label {
+    justify-self: start;
+  }
+
+  .margin3 {
+    padding: 0 5rem;
+    margin-bottom: 8rem;
+    font-size: 1rem;
+  }
+
   .col-sm-1 {
     grid-column: span 1;
   }
