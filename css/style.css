@@ -1,25 +1,94 @@
+* {
+  font-family: 'ObjectSans', Object Sans, Helvetica, sans-serif;
+  font-weight: 300;
+}
+
 body {
   background-color: #161618;
   color: white;
+
+  /* height: 100%;
+  width: 100%;
+  overflow: hidden; */
 }
 
 a {
   color: inherit;
   text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.navigation {
+  margin-top: -40px;
+}
+
+.pad {
+  padding-top: 120px;
+}
+
+nav a:hover {
+  color: aquamarine;
+  transition: all 0.3s ease;
+}
+
+/* .col-md {
+  width: 90%;
+  max-width: 1600px;
+  margin: 0 auto;
+} */
+
+.row {
+  position: relative;
+  width: 100%;
+}
+
+.row [class^="col"] {
+  float: left;
+  margin: 8px 2% 40px;
+  min-height: 2px;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.main-content {
+  font-size: 5rem;
+  line-height: 1;
 }
 
 @media (max-width: 500px) {
-
+  li {
+    font-size: 1.125rem;
+    line-height: 1.5;
+  }
 }
 
 @media (max-width: 719px) {
-
+  li {
+    font-size: 1.125rem;
+    line-height: 1.5;
+  }
 }
 
 @media (min-width: 720px) and (max-width: 1023px) {
+  .col-3 {
+    width: 21%;
+  }
 
+  .col-9 {
+    width: 71%;
+  }
+
+  li {
+    font-size: 1.5rem;
+    line-height: 1.5;
+  }
 }
 
 @media (min-width: 1024px) {
-
+  li {
+    font-size: 1.5rem;
+    line-height: 1.5;
+  }
 }
