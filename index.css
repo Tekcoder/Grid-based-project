@@ -13,12 +13,14 @@ html {
 body {
   font-family: 'ObjectSans', Object Sans, Helvetica, sans-serif;
   font-weight: 300;
-  color: #161618;
+  background-color: #161618;
 }
 
 p.x-large {
-  font-size: 5rem;
+  font-size: 6rem;
   line-height: 1.4;
+  margin: auto 0;
+  padding: 0 3rem 0 3rem;
 }
 
 .heavy {
@@ -27,8 +29,13 @@ p.x-large {
 }
 
 .type-white {
-  background-color: #161618;
   color: white;
+}
+
+.margin {
+  margin: 5rem 0;
+  font-weight: 400;
+  font-size: 2rem;
 }
 
 .container-fluid {
